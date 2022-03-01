@@ -8,21 +8,21 @@ export default function ProjectContent() {
             
             <div className='project-grid'>
 
-                <div className='project-display project-1' >
-                    <img className='project-img' src='' alt=''></img>
-                </div>
+                <a className='project-display' href={"https://portfolioio-d9a91.web.app/"} target={"_blank"} style={{backgroundImage: `url('https://i.imgur.com/tz9ZaIh.png')`}}>
+                    
+                </a>
 
-                <div className='project-display project-2' >
-                    <img className='project-img' src='' alt=''></img>
-                </div>
+                <a className='project-display project-2' href={"https://app.ricochet.exchange/invest/rex-market"} target={"_blank"} style={{backgroundImage: 'url("https://i.imgur.com/PSYZ9GN.jpg")'}}>
+                   
+                </a>
 
-                <div className='project-display project-3' >
-                    <img className='project-img' src='' alt=''></img>
-                </div>
+                <a className='project-display project-3' href={"https://www.amysky99.com"} target={"_blank"} style={{backgroundImage: 'url("https://i.imgur.com/DPls52e.png")'}}>
 
-                <div className='project-display project-4' >
-                    <img className='project-img' src='' alt=''></img>
-                </div>
+                </a>
+
+                <a className='project-display project-3' href={"https://www.cannanodes.com"} target={"_blank"} style={{backgroundImage: 'url("https://i.imgur.com/x9D5e1D.jpg")'}}>
+
+                </a>
             </div>
         </div>
     )

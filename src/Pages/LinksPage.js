@@ -1,7 +1,7 @@
 import React from 'react'
 import FooterContent from 'Containers/FooterContent'
 import LinkContent from 'Containers/LinkContent'
-import HamBurgerNav from 'Components/HamBurgerNav'
+import HamBurgerNav from 'Components/HamburgerNav/HamBurgerNav.js'
 import '../Styles/styles.css'
 
 

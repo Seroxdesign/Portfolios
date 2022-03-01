@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ScrollToTop from "HelperFunctions/ScrollToTop";
 import HomePage from "./Pages/HomePage";
 import LinksPage from "Pages/LinksPage";
@@ -8,11 +9,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
-
 import './App.css';
 
 function App() {
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop> 
