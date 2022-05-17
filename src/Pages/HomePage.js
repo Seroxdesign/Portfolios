@@ -24,7 +24,6 @@ export default function HomePage() {
                 <PoweredBy />
                 <ProcessContent />
                 <ProjectContent />
-               
                 <ServicesContent />
                 <FooterContent />
             </main>
