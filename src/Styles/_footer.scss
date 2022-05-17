@@ -93,7 +93,7 @@
 
 @media only screen and (min-width: 1024px){
     .footer-wrapper{
-        height: 60vh;
+        height: 70vh;
         width: 100%;
         background-image: linear-gradient(rgb(26, 25, 25), black);
         overflow-x: hidden;
@@ -147,8 +147,8 @@
 
     .support-para{
         margin-top: 1em;
-        font-size: small;
-        height: 5em;
+        font-size: smaller;
+        height: 4em;
         width: 50%;
         margin-left: 25%;
         color: rgba(255, 255, 255, 0.537);
@@ -157,7 +157,8 @@
 
     .support-me-btn{
         width: 15vw;
-        height: 5vh;
+        height: 7vh;
+        font-size: x-small;
         margin-top: 1em;
         background-color: #303030;
         border: 2px solid $maincolor;
@@ -166,10 +167,8 @@
 
     .support-me-btn:hover{
         cursor: pointer;
-        width: 15vw;
-        height: 5vh;
-        background-color: #585656;
-        border: 2px solid rgb(60, 168, 197);
+        background-color: #070707;
+        border: 2px solid rgb(65, 197, 233);
         color: white;
     }
 

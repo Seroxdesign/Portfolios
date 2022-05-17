@@ -1,11 +1,11 @@
-
 import React, { useState } from "react"
 import { Link } from 'react-router-dom'
+import 'Styles/styles.css'
 
-import '../Styles/styles.css'
+
 
 export default function HamBurgerNav() {
-    
+
     const [navbarOpen, setNavbarOpen] = useState(false)
 
     const handleNav = () => {
@@ -22,7 +22,7 @@ export default function HamBurgerNav() {
                 <div className='nav-exit' onClick={handleNav}> <h1 className="exit-btn">X</h1> </div>
 
                 <nav className="nav-menu">
-                    <Link to="/" className={`menu-item-nav ${navbarOpen? '' : 'invisible'}`}>Home</Link>
+                    <Link to="/" className={`menu-item-nav ${navbarOpen? '' : 'invisible'}`} >Home</Link>
                     <Link to="/links" className={`menu-item-nav ${navbarOpen? '' : 'invisible'}`}>Links</Link>
                     <Link to="/about" className={`menu-item-nav ${navbarOpen? '' : 'invisible'}`}>About</Link>
                 </nav>  

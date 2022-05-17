@@ -48,7 +48,7 @@ export default function ProcessCard() {
                     <ul className='process-list'>
                         <li className='project-list-item'>Devise a marketing strategy built around your needs.</li>
                         <li className='project-list-item'>Find your niche, join some platforms and begin posting.</li>
-                        <li className='project-list-item'>Grow and leverage your audience to launch your product.</li>
+                        <li className='project-list-item'>Grow and leverage your audience.</li>
                     </ul>
                 </div>
             

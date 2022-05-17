@@ -73,8 +73,7 @@
         background-color: #303030;
         width: 90%;
         margin-top: 1em;
-        border-radius: 50px;
-
+        border-radius: 10px;
         display: grid;
         grid-template-rows: 85% 15%;
         padding: 1em;
@@ -85,17 +84,16 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2em;
-        padding: 1em;
     }
 
     .process-list-container{
-        padding: 1.5em;
-        background-color: #1b1b1b;
-        border-radius: 50px;
+        background-color: #1d1d1d;
+        border-radius: 10px;
     }
     
     .process-title-intro-container{
         height: 30%;
+        background-image: linear-gradient(to right, $maincolor, rgb(33, 55, 56));
         width: 100%;
         display: flex;
         align-self: center;
@@ -127,25 +125,30 @@
     }
 
     .process-title{
-        font-size: x-large;
-        color: $maincolor;
-        text-align: center;
+        font-size: xx-large;
+        margin-left: 1em;
+        font-weight: 500;
+        color: #1b1b1b;
+        text-align: left;
     }
 
     .process-explain-para{
-        color: rgba(255, 255, 255, 0.7);
-        text-align: center;
+        color: rgba(255, 255, 255, 0.87);
+        text-align: left;
+        font-size: larger;
         font-size: 16px; 
+        margin-left: 1em;
         margin-top: 1em;
     }
 
     .project-list-item{
         color: rgba(255, 255, 255, 0.5);
-        font-size:small;
-        text-align: center;
-        width: 80%;
-        margin-left: 10%;
+        font-size: medium;
+        text-align: left;
+        width: 100%;
+        width: 90%;
+        margin-top:1em;
         padding: 1em;
-        
+        background-color: #393939;
     }
 }   

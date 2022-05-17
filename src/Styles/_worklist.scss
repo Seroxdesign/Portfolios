@@ -26,6 +26,7 @@
 
     .rev-color{
         filter: brightness(0) invert(1);
+        max-height: 10vh;
     }
 
     .work-link{
@@ -67,7 +68,7 @@
         height: 100%;
         margin-top: 2em;
         padding: 2em;
-        width: 45%;
+        width: 80%;
         border-radius: 5%;
         background-color: rgb(35, 35, 35);
         display: flex;
@@ -78,7 +79,7 @@
     .work-item-r{
         height: 100%;
         margin-top: 2em;
-        width: 45%;
+        width:80%;
         padding: 2em;
         border-radius: 5%;
         background-color: rgb(35, 35, 35);
